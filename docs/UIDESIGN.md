@@ -31,6 +31,7 @@
 
 ### The next step in the resume buiding process is actually building a profile, based on level of experience in the industry, a user's career field, and additional information. After the user chooses one of the first four options of who they are (Student, Experienced, Entry Level, Executive), a panel opens up below, where they will be prompted to fill in the text fields. Once they click the button "Next", another panel opens up below, with fields which prompt the user to enter more personal information, such as their address and phone number. ###
 
+<img src = "images/ProfileOptions.png">
 
 <br>
 
