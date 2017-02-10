@@ -6,7 +6,7 @@
 
 ### Page 1: The Home Page ###
 
-<a href="resume_Home">Home Page</a>
+<a href="resume_Home.zip">Home Page</a>
 
 ### Page 2: The Sign Up Options Page ###
 
