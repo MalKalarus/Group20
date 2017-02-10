@@ -8,7 +8,13 @@
 
 ### Page 1: <a href="files/resume _ Home.zip">The Home Page</a>
 
+### The Home page provides users with a list of important features the web app has to offer, as well as a glimpse of the positive      experiences of other users. The search bar near the top of the page allows the user to search for different pages in the app, such as a resume template examples page. The notification icon shaped as a bell notifies users who are logged in of new messages in their inbox. Users who are not logged in can log in through the blue labelled button "Login to Your Account", or sign up with a new account through the green labelled button "Signup to Build Your Resume". ###
+
+
 ### Page 2: <a href="files/resume _ LoginOptionsPage.zip">The Sign Up Options Page</a> 
+
+### If the user selects the "Signup to Build Your Resume" button on the home page, they will be directed to this sign up options page. Here they can sign up as either a normal user who is looking to build their resume and profile, or an employer who is not only looking to build their resume, but also searching for candidates for their company. ###
+
 
 ### Page 3: <a href="files/resume _ LoginPage.zip">The Sign Up Page</a> 
 
@@ -20,4 +26,4 @@
 
 ### Page 7: <a href="files/resume _ ResumeScorePage.zip">The Resume Evaluation Page</a>
 
-### Page 8: <a href="files/resume _ ResumeScorePage.zip">The Profile Page</a> 
+### Page 8: <a href="files/resume _ ProfilePage.zip">The Profile Page</a> 
