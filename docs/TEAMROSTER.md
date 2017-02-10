@@ -31,8 +31,8 @@ Sungyeon is a Computer Science student with experience in the Java and C program
 Hejia is a third-year Computer Science student with experience in Java, C, Python, Javascript and SQL. She has more interest in information systems than software programming. She likes everything to be organised and hopes this will make her a good database designer. She enjoys watching TV shows and dramas when she is free.
 
 ## Mal Kalarus
-*Front End Developer
-Team Secretary and Meeting Coordinator *
+*Front End Developer*
+*Team Secretary and Meeting Coordinator*
 
 <img src = "images/Mal-Photo.jpg">
 
