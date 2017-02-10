@@ -51,7 +51,7 @@
    
 ### However, when employers view this profile, they will have the added options of sending the user of that profile a message, a notification, and being able to save the profile.   
 
-<a href="files/resume _ ProfilePageEmployerView.zip">Employer View</a> ###
+<a href="files/resume _ ProfilePageEmployerView.zip">Employer View</a>
    
 
 
