@@ -1,13 +1,15 @@
 ## Project Plan     
 
+Edited as of 2017/03/03
+
 [Home](README.md)  
 
 ## ResuMe! Resume Editor and Sharing Site
  *Basic Design*
  
-Incorporating elements from websites like LinkedIn, Indeed.com and myperfectresume.com, this system will allow job searchers to custom-build resumes based on their occupational field and interests. We will use a front-end web interface produced with Angular JS and Grails.  Users begin with a profile page including basic information such as their name, occupational field, and job preferences. This information is then submitted to an SQL-implemented database, where the user is matched with a host of templates, based on the information submitted through their profile. 
+Incorporating elements from websites like LinkedIn, Indeed.com and myperfectresume.com, this system will allow job searchers to custom-build resumes based on their occupational field and interests. We will use a front-end web interface produced with React and Grails.  Users begin with a profile page including basic information such as their name, occupational field, and job preferences. This information is then submitted to an GORM-implemented database, where the user has the opportunity to choose from a host of templates, which will be populated using the information submitted to their profile. 
 
-After a template is chosen, the site guides the user through the process of building and editing their resume.  When finished, the user can use a variety of features such as a grammar/spellcheck based on the Grammarly API or receive a rating of their resumes’ quality based on its contents with suggestions for improvement targeted to their occupation.  An algorithm for the latter will be based off LinkedIn’s profile scoring system. After this step, the user can download it in a specified format, share it on social platforms for employers to view, or add it to their profile. 
+After a template is chosen, the site guides the user through the process of building and editing their resume.  When finished, the user can use a variety of features such as a grammar/spellcheck based on the Grammarly API.  They may also receive a rating of their resumes’ quality based on its contents with suggestions for improvement targeted to their occupation.  An algorithm for the latter will be based off LinkedIn’s profile scoring system. After this step, the user can download it in a specified format, share it on social platforms for employers to view, or add it to their profile. 
 
 
 ## Additional Features
