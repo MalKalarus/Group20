@@ -1,6 +1,11 @@
 ## Project Plan     
 
-Edited as of 2017/03/03
+Project Plan as of 2017/03/24
+*Basic Design*
+
+Incorporating elements from websites like Indeed.com and myperfectresume.com, this system will allow job searchers to custom-build resumes by enabling them to store their name, location, and qualifications in a database, and then allowing them to autopopulate a variety of templates with this information.  We will use a front-end web interface with React and Grails.  Users first have the option of signing up.  They can then login and access a profile page.  The profile page has fields for the user to add their qualifications.  They can then view a variety of attractive templates that might assist them in formatting their resume.  No additional features have been implemented due to lack of time.
+
+Plan from Stage 2:  Edited as of 2017/03/03
 
 [Home](README.md)  
 
