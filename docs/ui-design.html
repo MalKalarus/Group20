@@ -28,7 +28,7 @@
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1486747113" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1491609923" title="wsite-theme-css" />
 <link href='http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
@@ -96,11 +96,10 @@
 .wsite-product .wsite-product-price a {}
 }</style>
 
-		<script><!--
+		<script>
 var STATIC_BASE = '//cdn1.editmysite.com/';
 var ASSETS_BASE = '//cdn2.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
-//-->
 </script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
@@ -109,25 +108,17 @@ var STYLE_PREFIX = 'wsite';
 <script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
 	var IS_ARCHIVE = 1;
 	
-	(function(jQuery){
-		function initFlyouts(){
-			initPublishedFlyoutMenus(
-				[{"id":"467135212817141280","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"831660227807444713","title":"Project Plan","url":"project-plan.html","target":"","nav_menu":false,"nonclickable":false},{"id":"815920054123770165","title":"Software Design","url":"software-design.html","target":"","nav_menu":false,"nonclickable":false},{"id":"976231802603468814","title":"Team Roster","url":"team-roster.html","target":"","nav_menu":false,"nonclickable":false},{"id":"541858283664497487","title":"UI Design","url":"ui-design.html","target":"","nav_menu":false,"nonclickable":false}],
-				"541858283664497487",
-				'',
-				'active',
-				false,
-				{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap {{#has_children}}has-submenu{{\/has_children}}\">\n  <a\n    {{^nonclickable}}\n      {{^nav_menu}}\n        href=\"{{url}}\"\n      {{\/nav_menu}}\n    {{\/nonclickable}}\n    {{#target}}\n      target=\"{{target}}\"\n    {{\/target}}\n    {{#membership_required}}\n      data-membership-required=\"{{.}}\"\n    {{\/membership_required}}\n    {{#nonclickable}}\n      class=\"wsite-menu-item dead-link\"\n    {{\/nonclickable}}\n    {{^nonclickable}}\n      class=\"wsite-menu-item\"\n    {{\/nonclickable}}\n    >\n    {{{title_html}}}\n  <\/a>\n  {{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n  class=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}} {{#has_children}}has-submenu{{\/has_children}}\"\n  >\n  <a\n    {{^nonclickable}}\n      {{^nav_menu}}\n        href=\"{{url}}\"\n      {{\/nav_menu}}\n    {{\/nonclickable}}\n    {{#target}}\n      target=\"{{target}}\"\n    {{\/target}}\n    {{#nonclickable}}\n      class=\"wsite-menu-item dead-link\"\n    {{\/nonclickable}}\n    {{^nonclickable}}\n      class=\"wsite-menu-item\"\n    {{\/nonclickable}}\n    >\n    <span class=\"wsite-menu-title\">\n      {{{title_html}}}\n    <\/span>\n  <\/a>\n  {{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-				{"hasCustomMinicart":true}
-			)
-		}
-		if (jQuery) {
-			jQuery(document).ready(function() { jQuery(initFlyouts); });
-		}else{
-			if (Prototype.Browser.IE) window.onload = initFlyouts;
-			else document.observe('dom:loaded', initFlyouts);
-		}
-	})(window._W && _W.jQuery)
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"467135212817141280","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"831660227807444713","title":"Project Plan","url":"project-plan.html","target":"","nav_menu":false,"nonclickable":false},{"id":"815920054123770165","title":"Software Design","url":"software-design.html","target":"","nav_menu":false,"nonclickable":false},{"id":"976231802603468814","title":"Team Roster","url":"team-roster.html","target":"","nav_menu":false,"nonclickable":false},{"id":"541858283664497487","title":"UI Design","url":"ui-design.html","target":"","nav_menu":false,"nonclickable":false},{"id":"352307399454225737","title":"Project Retrospective","url":"project-retrospective.html","target":"","nav_menu":false,"nonclickable":false},{"id":"482173631539292026","title":"Video Demonstration","url":"video-demonstration.html","target":"","nav_menu":false,"nonclickable":false}],
+			"541858283664497487",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap {{#has_children}}has-submenu{{\/has_children}}\">\n  <a\n    {{^nonclickable}}\n      {{^nav_menu}}\n        href=\"{{url}}\"\n      {{\/nav_menu}}\n    {{\/nonclickable}}\n    {{#target}}\n      target=\"{{target}}\"\n    {{\/target}}\n    {{#membership_required}}\n      data-membership-required=\"{{.}}\"\n    {{\/membership_required}}\n    {{#nonclickable}}\n      class=\"wsite-menu-item dead-link\"\n    {{\/nonclickable}}\n    {{^nonclickable}}\n      class=\"wsite-menu-item\"\n    {{\/nonclickable}}\n    >\n    {{{title_html}}}\n  <\/a>\n  {{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n  class=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}} {{#has_children}}has-submenu{{\/has_children}}\"\n  >\n  <a\n    {{^nonclickable}}\n      {{^nav_menu}}\n        href=\"{{url}}\"\n      {{\/nav_menu}}\n    {{\/nonclickable}}\n    {{#target}}\n      target=\"{{target}}\"\n    {{\/target}}\n    {{#nonclickable}}\n      class=\"wsite-menu-item dead-link\"\n    {{\/nonclickable}}\n    {{^nonclickable}}\n      class=\"wsite-menu-item\"\n    {{\/nonclickable}}\n    >\n    <span class=\"wsite-menu-title\">\n      {{{title_html}}}\n    <\/span>\n  <\/a>\n  {{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{"hasCustomMinicart":true}
+		)
+	}
 //-->
 </script>
 		
@@ -195,6 +186,24 @@ var STYLE_PREFIX = 'wsite';
 		  </a>
 		  
 		</li>
+		<li id="pg352307399454225737" class="wsite-menu-item-wrap ">
+		  <a
+		        href="project-retrospective.html"
+		      class="wsite-menu-item"
+		    >
+		    Project Retrospective
+		  </a>
+		  
+		</li>
+		<li id="pg482173631539292026" class="wsite-menu-item-wrap ">
+		  <a
+		        href="video-demonstration.html"
+		      class="wsite-menu-item"
+		    >
+		    Video Demonstration
+		  </a>
+		  
+		</li>
 </ul>
 </div>
             <div class="nav desktop-nav"><ul class="wsite-menu-default">
@@ -243,6 +252,24 @@ var STYLE_PREFIX = 'wsite';
 		  </a>
 		  
 		</li>
+		<li id="pg352307399454225737" class="wsite-menu-item-wrap ">
+		  <a
+		        href="project-retrospective.html"
+		      class="wsite-menu-item"
+		    >
+		    Project Retrospective
+		  </a>
+		  
+		</li>
+		<li id="pg482173631539292026" class="wsite-menu-item-wrap ">
+		  <a
+		        href="video-demonstration.html"
+		      class="wsite-menu-item"
+		    >
+		    Video Demonstration
+		  </a>
+		  
+		</li>
 </ul>
 </div>
           </div>
@@ -267,7 +294,7 @@ var STYLE_PREFIX = 'wsite';
 		<div class="wsite-section-content">
         <div class="container">
 			<div class="wsite-section-elements">
-				<h2 class="wsite-content-title"><font color="#020000" size="7">&nbsp; &nbsp; UI &nbsp; DESIGN</font></h2>
+				<h2 class="wsite-content-title"><font size="7"><font color="#3387a2">&nbsp; </font><font color="#3a96b8">&nbsp;</font><font color="#dab844"> UI &nbsp; DESIGN</font></font></h2>
 			</div>
 		</div>
       </div>
@@ -275,11 +302,11 @@ var STYLE_PREFIX = 'wsite';
 	</div>
 </div>
 <div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-background-14" style="height: 3500px;" >
+	<div class="wsite-section wsite-body-section wsite-background-14" style="height: 2328px;" >
 		<div class="wsite-section-content">
         <div class="container">
 			<div class="wsite-section-elements">
-				<div class="paragraph"><span>The Resume! web app is designed to provide simplicity, through a consistent colour scheme and layout, easy navigation, and easy-to-follow instructions. The website has a consistent green shaded menu bar at the top of each webpage, where a user can find contact information, information about the web app, and help. The light grey colour of the background across all webpages is plain yet provides simplicity.</span><br /><br /><br /><span>Resume! also makes navigating through different webpages easy, by using distinct, brightly coloured large buttons to lead the user to wherever they want to go next, as they navigate through intuitively ordered webpages. They begin at the home website where they can be directed to either log in or sign up, before choosing a resume template on the resume templates webpage after they sign up. Then they fill out their more personal information on a separate page to build their resume profile before it can be evaluated through a visual score graph. Once they have further edited their resume, they can access their profile or be directed to a job search.</span><br /><br /><br /><ul><li><span>Page 1</span><span>&#8203;:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20Home.zip"><font color="#2a2a2a">The Home Page</font></a><ul><li><span>The Home page provides the user with a list of important features the web app has to offer, as well as a glimpse of the positive experiences of other users. The search bar near the top of the page allows the user to search for different pages in the app, such as a resume template examples page. The notification icon shaped as a bell notifies users who are logged in of new messages in their inbox. Users who are not logged in can log in through the blue labelled button "Login to Your Account", or sign up with a new account through the green labelled button "Signup to Build Your Resume".</span></li></ul></li></ul><br /><ul><li><span>Page 2:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20LoginOptionsPage.zip"><font color="#2a2a2a">The Sign Up Options Page</font></a><ul><li><span>&#8203;If the user selects the "Signup to Build Your Resume" button on the home page, they will be directed to this sign up options page. Here they can sign up as either a normal user who is looking to build their resume and profile, or an employer who is not only looking to build their resume, but also searching for candidates for their company.</span><br /><br /></li></ul></li><li><span>Page 3:&nbsp;</span>&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20LoginPage.zip"><font color="#2a2a2a">The Sign Up Page</font></a><ul><li><span>Once the user selects who they want to sign up as, the user can formally sign up by entering their name, email, and password, or signing up through third party websites.</span><font color="#2a2a2a">&#8203;</font></li></ul></li></ul><br /><ul><li><span>Page 4:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeTemplatesPage.zip"><font color="#2a2a2a">The Resume Templates Page</font></a><ul><li><span>After the user signs up, the first step in the process of building their resume is choosing a resume template. They can narrow down their selection of templates by choosing template designs specific to a certain field, which can be done by selecting the "Search Templates by Field" dropdown button. When hovering over a resume template, an overlay appears over the template with option to choose it.</span><font color="#2a2a2a">&#8203;</font></li></ul></li></ul><br /><ul><li>Page 5:&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeBuilderPage.zip"><font color="#2a2a2a">The Resume and Profile Builder Page</font></a><ul><li><font color="#2a2a2a">&#8203;</font><span>The next step in the resume building process is actually building a profile, based on level of experience in the industry, a user's career field, and additional information. After the user chooses one of the first four options of who they are (Student, Experienced, Entry Level, Executive), a panel opens up below, where they will be prompted to fill in the text fields. Once they click the button "Next", another panel opens up below, with fields which prompt the user to enter more personal information, such as their address and phone number.</span></li></ul></li></ul><span>&#8203;</span><br /></div>
+				<div class="paragraph"><span>The Resume! web app is designed to provide simplicity, through a consistent colour scheme and layout, easy navigation, and easy-to-follow instructions. The website has a consistent green shaded menu bar at the top of each webpage, where a user can find contact information, information about the web app, and help. The light grey colour of the background across all webpages is plain yet provides simplicity.</span><br /><br /><br /><span>Resume! also makes navigating through different webpages easy, by using distinct, brightly coloured large buttons to lead the user to wherever they want to go next, as they navigate through intuitively ordered webpages. They begin at the home website where they can be directed to either log in or sign up, before choosing a resume template on the resume templates webpage after they sign up. Then they fill out their more personal information on a separate page to build their resume profile before it can be evaluated through a visual score graph. Once they have further edited their resume, they can access their profile or be directed to a job search.</span><br /><br /><br /><ul><li><span>Page 1</span><span>&#8203;:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20Home.zip"><font color="#2a2a2a">The Home Page</font></a><ul><li><span>The Home page provides the user with a list of important features the web app has to offer, as well as a glimpse of the positive experiences of other users. The search bar near the top of the page allows the user to search for different pages in the app, such as a resume template examples page. The notification icon shaped as a bell notifies users who are logged in of new messages in their inbox. Users who are not logged in can log in through the blue labelled button "Login to Your Account", or sign up with a new account through the green labelled button "Signup to Build Your Resume".</span></li></ul></li></ul> &nbsp;<ul><li><span>Page 2:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20LoginOptionsPage.zip"><font color="#2a2a2a">The Sign Up Options Page</font></a><ul><li><span>&#8203;If the user selects the "Signup to Build Your Resume" button on the home page, they will be directed to this sign up options page. Here they can sign up as either a normal user who is looking to build their resume and profile, or an employer who is not only looking to build their resume, but also searching for candidates for their company.</span><br /><br /></li></ul></li><li><span>Page 3:&nbsp;</span>&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20LoginPage.zip"><font color="#2a2a2a">The Sign Up Page</font></a><ul><li><span>Once the user selects who they want to sign up as, the user can formally sign up by entering their name, email, and password, or signing up through third party websites.</span><font color="#2a2a2a">&#8203;</font></li></ul></li></ul> &nbsp;<ul><li><span>Page 4:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeTemplatesPage.zip"><font color="#2a2a2a">The Resume Templates Page</font></a><ul><li><span>After the user signs up, the first step in the process of building their resume is choosing a resume template. They can narrow down their selection of templates by choosing template designs specific to a certain field, which can be done by selecting the "Search Templates by Field" dropdown button. When hovering over a resume template, an overlay appears over the template with option to choose it.</span><font color="#2a2a2a">&#8203;</font></li></ul></li></ul> &nbsp;<ul><li>Page 5:&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeBuilderPage.zip"><font color="#2a2a2a">The Resume and Profile Builder Page</font></a><ul><li><font color="#2a2a2a">&#8203;</font><span>The next step in the resume building process is actually building a profile, based on level of experience in the industry, a user's career field, and additional information. After the user chooses one of the first four options of who they are (Student, Experienced, Entry Level, Executive), a panel opens up below, where they will be prompted to fill in the text fields. Once they click the button "Next", another panel opens up below, with fields which prompt the user to enter more personal information, such as their address and phone number.</span></li></ul></li></ul> <span>&#8203;</span></div>
 
 <div><div id="258253967347971110" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><img src="https://raw.githubusercontent.com/MalKalarus/Group20/master/docs/images/ResumeBuilder.png" height="300" width="650"></div>
 
@@ -287,13 +314,7 @@ var STYLE_PREFIX = 'wsite';
 
 </div>
 
-<div class="paragraph"><br /><ul><li>Page 6: &nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeEditorPage.zip"><font color="#2a2a2a">The Resume Preview&nbsp;Page</font></a><ul><li><font color="#2a2a2a">&#8203;</font>When the user clicks the button "Save and Next" on the resume builder page, they will be taken to a page which shows the current resume with the information already filled out based on the information inputted on the previous page. The user can choose to edit their resume, in which they would be able to actually edit their resume in an editor, or if they are satisfied with their resume, they can click the button "Get Resume Score Now", to have their resume evaluated by the app.</li></ul></li></ul> &nbsp;<ul><li>Page 7:&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeScorePage.zip"><font color="#2a2a2a">The Resume Evaluation&nbsp;Page</font></a><ul><li><font color="#2a2a2a">&#8203;</font><span>Clicking the "Get Resume Score" button takes the user to the page displaying the resume evaluation results in a visual score graph. The user has the option to, once again, edit their resume now that they have seen their score, in which they will be taken into an editor where they will be provided with suggestions to improve their resume. They also have the option to get a human review, in which they could send an email attached with their resume directly to a resume review specialist. The user can search available jobs based on their specified career field, when clicking the "Search Job Availability" button. When selecting the upload resume to profile option, the user will also be taken to their profile page.</span></li></ul></li></ul> &nbsp;<ul><li>Page 8:&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ProfilePage.zip"><font color="#2a2a2a">The Profile Page</font></a><ul><li>When viewing their own profile page, the user will see the autogenerated sections of their personal information based from their resume. In the menu bar near the top of the page, the user can also see their saved applications, certifications, and search for jobs, certifications, and public profiles of other users, to view their resumes. The user can also see all of their resumes, create additional resumes, and can select resumes to edit or publicize. When other users view this profile, only they will see the blue button "View Resumes", allowing them to view all publicized resumes.<br /><br />However, when employers view this profile, they will have the added options of sending the user of that profile a message, a notification, and being able to save the profile.<br /><br /><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ProfilePageEmployerView.zip" target="_blank"><font color="#2a2a2a">Employer View</font></a></li></ul></li></ul>&#8203;<br /></div>
-
-<div><div id="842220464341297771" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><img src="https://raw.githubusercontent.com/MalKalarus/Group20/master/docs/images/ProfileOptions.png" height="250" width="900"></div>
-
-
-
-</div>
+<div class="paragraph"><br /><ul><li>Page 6: &nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeEditorPage.zip"><font color="#2a2a2a">The Resume Preview&nbsp;Page</font></a><ul><li><font color="#2a2a2a">&#8203;</font>When the user clicks the button "Save and Next" on the resume builder page, they will be taken to a page which shows the current resume with the information already filled out based on the information inputted on the previous page. The user can choose to edit their resume, in which they would be able to actually edit their resume in an editor, or if they are satisfied with their resume, they can click the button "Get Resume Score Now", to have their resume evaluated by the app.</li></ul></li><li><span style="color:rgb(42, 42, 42)">Page 7:&nbsp;</span><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ResumeScorePage.zip"><font color="#2a2a2a">The Resume Evaluation&nbsp;Page</font></a><ul><li><font color="#2a2a2a">&#8203;</font>Clicking the "Get Resume Score" button takes the user to the page displaying the resume evaluation results in a visual score graph. The user has the option to, once again, edit their resume now that they have seen their score, in which they will be taken into an editor where&nbsp;they will be provided with suggestions to improve their resume. They also have the option to get a human review, in which they could send an email attached with their resume directly to a resume review specialist. The user can search available jobs based on their specified career field, when clicking the "Search Job Availability" button. When selecting the upload resume to profile option, the user will also be taken to their profile page.</li></ul></li></ul><br /><ul><li>Page 8:&nbsp;<a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ProfilePage.zip"><font color="#2a2a2a">The Profile Page</font></a><ul><li>When viewing their own profile page, the user will see the autogenerated sections of their personal information based from their resume. In the menu bar near the top of the page, the user can also see their saved applications, certifications, and search for jobs, certifications, and public profiles of other users, to view their resumes. The user can also see all of their resumes, create additional resumes, and can select resumes to edit or publicize. When other users view this profile, only they will see the blue button "View Resumes", allowing them to view all publicized resumes.<br /><br />However, when employers view this profile, they will have the added options of sending the user of that profile a message, a notification, and being able to save the profile.<br /><br /><a href="https://github.com/MalKalarus/Group20/blob/master/docs/files/resume%20_%20ProfilePageEmployerView.zip" target="_blank"><font color="#2a2a2a">Employer View</font></a></li></ul></li></ul><br /></div>
 			</div>
 		</div>
       </div>
@@ -355,6 +376,24 @@ var STYLE_PREFIX = 'wsite';
 		      class="wsite-menu-item"
 		    >
 		    UI Design
+		  </a>
+		  
+		</li>
+		<li id="pg352307399454225737" class="wsite-menu-item-wrap ">
+		  <a
+		        href="project-retrospective.html"
+		      class="wsite-menu-item"
+		    >
+		    Project Retrospective
+		  </a>
+		  
+		</li>
+		<li id="pg482173631539292026" class="wsite-menu-item-wrap ">
+		  <a
+		        href="video-demonstration.html"
+		      class="wsite-menu-item"
+		    >
+		    Video Demonstration
 		  </a>
 		  
 		</li>
